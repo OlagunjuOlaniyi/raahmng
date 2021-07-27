@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="img/icon.png" sizes="32x32">
+	<title>raahm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<div class="slideshow-container">
+
+				<!----===== Navigation bar ===------>
+				<div class="nav-bar">
+					<a href="" class="logo"><img src="img/logo-b.png"></a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    					<i class="fa fa-bars"></i>
+  					</a>
+					<div class="navmenu" id="myTopnav">
+						<a href="" class="focus">Home</a>
+						<a href="about.html">About</a>
+						<a href="causes.html">Causes</a>
+						<a href="sponsors.html">Sponsors</a>
+						<a href="events.html">Events</a>
+						<a href="contact.html">Contact</a>
+					</div>
+			
+				</div>
+				<div class="mySlides fade">
+					<img src="img/hero-1.png" alt="child in need">
+				</div>
+				<div class="mySlides fade">
+					<img src="img/hero-2.png" alt="child in need">
+				</div>
+				<div class="mySlides fade">
+					<img src="img/hero-3.png" alt="child in need">
+				</div>
+			  	<div class="hero-text">
+			  		<h1>Give a Hand</h1>
+			  		<h2>To make the better world</h2><br>
+			  		<a href="causes.html"><button class="hero-text-bt">Donate Today!</button></a>
+			  	</div>
+			  
+			<!-----======== Dot Section ===------->
+				<div style="text-align: center;" class="dot-ct">
+					<span class="dot"></span><br> 
+					<span class="dot"></span><br>
+					<span class="dot"></span> 
+				</div>
+
+			<!---======= Sub hero img===------>
+				<div class="subhero-ct">
+					<div><img src="img/subhero-1.png" alt="children in need"></div>
+					<div><img src="img/subhero-2.jpg" alt="children in need"></div>
+				</div>
+
+			<!---======= Sub hero text ===----->
+				<div class="subhero-txt">
+					<p><strong>RAAHM</strong> is a social economic initiatve birth out of the burning desire to impact in the global effort to eradicate malnutrition and bring starvation to a zero level in Nigeria.</p>
+				</div>	
+
+		</div>
+
+	</header>
+	<!--====== About Us Section =====------>
+				
+		<div class="about-us-ct">
+			<div class="about-img-ct"><img src="img/abt-img.jpg" alt="raahm excos group photo"></div>
+			<div class="about-txt-ct">
+				<h1>We are nonprofit team and work worldwide</h1>
+				<p>Child malnutrition is a clinical sign of nutrient deficiency manifested a stunting under weight and wasting. These manifestations are often measured using biomedical or anthropometric indicators. Rapid action against hunger and malnutrition (<strong>RAAHM</strong>) was conceived out of a burning desire to bring about positive change in the world especially in our dear country by contributing our impact in eradication of hunger and malnutrition in our society.</p>
+				<p>Our value and purpose is a very important agenda of the sustainable development goals (<strong>SDGs</strong>). Reducing child malnutrition is a key millennium development goal and a focal policy thrust of the government of Nigeria as well as other countries in sub Sahara Africa.</p>
+				<a href="about.html"><button>Read more</button></a>
+			</div>
+		</div>
+
+	<!---========= Majtor Causes Section ====------->
+	<div class="causes">
+		<h1>Our Major Causes</h1>
+		<div class="causes-ct">
+			<div class="causes-items click-items" onclick="document.getElementById('id01').style.display='block'">
+				<div class="causes-icon-cr">
+					<img src="img/food.png" alt="food icon">
+				</div>
+				<h2>Give<br>Food items</h2><br>
+				<p>Facilitating support in food items for the victims of environmental disasters and internally displaced persons.</p>
+			</div>
+			<div class="causes-items click-items" onclick="document.getElementById('id02').style.display='block'">
+				<div class="causes-icon-cr">
+					<img src="img/donation.png" alt="donation icon">
+				</div>
+				<h2>Give<br>Donation</h2><br>
+				<p>Facilitating support for the victims of environmental disasters and internally displaced persons.</p>
+			</div>
+			<div class="causes-items click-items" id="causes-link">
+				<a href="https://web.facebook.com/RAAHM-NG-105535367552364/">
+					<div class="causes-icon-cr">
+						<img src="img/inspiration.png" alt="inspiration icon">
+					</div>
+					<h2>Give<br>Inspiration</h2><br>
+					<p>Facilitating free health care services especially for children and women in the rural area.</p>
+				</a>
+			</div>
+			<div class="causes-items click-items" id="causes-link">
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeYeXFuO9q-iT5YCIceqCCx_LVvbXhtxVkrwRliFJt32bPFcQ/viewform">
+					<div class="causes-icon-cr">
+						<img src="img/volunteer.png" alt="become a volunteer icon">
+					</div>
+					<h2>Become<br>Volunteer</h2><br>
+					<p>Advocacy and support for agric and agro allied establishment and businesses in Nigeria.</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!---======= Prompt Message ====---->				
+		<div id="id01" class="modal">
+  
+			<div class="modal-content animate">
+				<div class="modalcontainer">
+				    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span><br />
+				    <h3>Please send your donation of food items to the following address:</h3>
+				</div>
+				<div class="container">
+				    <table>
+				    	<tr>
+				    		<td><p><span class="modal-tb-hd">Osogbo Address:</span><br><br>18, Olutimehin Estate Off<br>Federal Industrial Centre,<br>Ilesha Express Road, Osogbo,<br>Osun State, Nigeria.</p></td>
+				    		<td><span class="modal-tb-hd">Or call the following Numbers:</span><br><br>080 8505 2520<br>081 0296 3519<br>070 3020 8093</td>
+				    	</tr>
+				    </table>
+				</div>
+					<h1 style="text-align: center;">Thank you</h1>
+				<div class="container" style="background-color:#f1f1f1">
+				    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				</div>
+			</div>
+				
+		</div>
+
+		<div id="id02" class="modal">
+  
+			<div class="modal-content animate">
+				<div class="modalcontainer">
+				    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span><br />
+				    <h3>Please send your donation to the following account details:</h3>
+				</div>
+				<div class="container container-b">
+				    <table>
+				    	<tr>
+				    		<td>Bank Name</td>
+				    		<td>Access Bank</td>
+				    	</tr>
+				    	<tr>
+				    		<td>Account Name</td>
+				    		<td>Oyetunji Toyyibah A</td>
+				    	</tr>
+				    	<tr>
+				    		<td>Account Number</td>
+				    		<td>0731910577</td>
+				    	</tr>
+				    </table>
+				</div>
+					<h1 style="text-align: center;">Thank you</h1>
+				<div class="container" style="background-color:#f1f1f1">
+				    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+				</div>
+			</div>
+				
+		</div>
+
+	<!--======== Sponsors Ads Section ===---->
+	<div class="sponsors-display">
+		<h1>Our Sponsors Products</h1>
+
+		<div class="slides-ct">
+
+			<div class="sponsorSlides">
+	  			<img src="img/sponsors/premier1.jpg" alt="premier logo">
+	  			<div class="textS">Premier Custard Powder: Unique Formulation... Unique Vitality</div>
+			</div>
+
+			<div class="sponsorSlides">
+	  			<img src="img/sponsors/premier2.jpg" alt="premier logo">
+	  			<div class="textS">Premier Custard Powder: Unique Formulation... Unique Vitality</div>
+			</div>
+
+			<div class="sponsorSlides">
+			  	<img src="img/sponsors/precy1.jpg" alt="precy logo">
+			  	<div class="textS">Precy Sweetened Yughurt!</div>
+			</div>
+
+			<div class="sponsorSlides">
+			  	<img src="img/sponsors/precy2.jpg" alt="precy logo">
+			  	<div class="textS">Precy Water: Purity at its peak!</div>
+			</div>
+
+			<div class="sponsorSlides">
+			  	<img src="img/sponsors/bobbish1.jpg" alt="bobbish food logo">
+			  	<div class="textS">Bobbish Foods - We take the stress for you.</div>
+			</div>
+
+			<div class="sponsorSlides">
+			  	<img src="img/sponsors/bobbish2.jpg" alt="bobbish food logo">
+			  	<div class="textS">Bobbish Foods: 5kg Family Garri.</div>
+			</div>
+
+			<div class="sponsorSlides">
+			  	<a href="https://wa.me/2348134572503"><img src="img/sponsors/mdeecreation.jpg" alt="mdee creation logo"></a>
+			  	<div class="textS">MDee Creations</div>
+			</div>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+	  		<span class="dotS"></span> 
+	  		<span class="dotS"></span> 
+	  		<span class="dotS"></span>
+	  		<span class="dotS"></span>
+	  		<span class="dotS"></span>
+	  		<span class="dotS"></span>
+	  		<span class="dotS"></span> 
+		</div>
+
+	</div>
+
+	<!----======== Event Section =====----->
+	<div class="events">
+		<h1>Events</h1>
+		<table>
+			<tr>
+				<td style="border-top: 0; border-left: 0;"><h3>Dec. 2019</h3></td>
+				<td style="border-top: 0;">
+				<span style="font-weight: bold; font-size: 20px">Help and homelessness</span><br><span style="font-style: italic;font-size: 12px;">Providing education and educative materials against hunger and malnutrition</span>
+				</td>
+				<td style="border-top: 0; border-right: 0;"><h3>Osogbo, NG</h3></td>
+			</tr>
+			<tr>
+				<td style="border-left: 0;"><h3>Jan. 2020</h3></td>
+				<td>
+					<span style="font-weight: bold; font-size: 20px">Foods for poor children</span><br><span style="font-style: italic;font-size: 12px;">Providing education and educative materials against hunger and malnutrition</span>
+				</td>
+				<td style="border-right: 0;"><h3>Lagos & Oyo, NG</h3></td>
+			</tr>
+			<tr>
+				<td style="border-left: 0;"><h3>Jun. 2020</h3></td>
+				<td>
+					<span style="font-weight: bold; font-size: 20px">Save the clean water</span><br><span style="font-style: italic;font-size: 12px;">Providing education and educative materials against hunger and malnutrition</span>
+				</td>
+				<td style="border-right: 0;"><h3>Osogbo, NG</h3></td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 0; border-left: 0;"></td>
+				<td style="border-bottom: 0;"></td>
+				<td style="border-bottom: 0; border-right: 0;"></td>
+			</tr>
+		</table>
+	</div>
+
+	<!--======== Footer Section =====------>
+	<div class="footer">
+		<div class="footer-ct">
+			<div class="footer-lt">
+				<p><span style="color: #009933; font-size: 25px;">Mission</span><br>To bring hunger and malnutrition in Nigeria to a zero level.</p>
+				<p>Reducing child malnutrition is a key millennium development goal and a focal policy thrust of the government of Nigeria as well as other countries in sub Sahara Africa.</p>
+			</div>
+			<div class="footer-rt">
+				<img src="img/logo-w.png" style="width: 250px; height: 60px;">
+				<p><span class="footer-rt-hd">Head Office</span><br>18, Olutimehin Estate Off<br>Federal Industrial Centre,<br>Ilesha Express Road, Osogbo,<br>Osun State, Nigeria.</p>
+				<p><span class="footer-rt-hd">Phone Number</span><br>(+234) 0808 505 2520<br>(+234) 0810 296 3519<br>(+234) 0703 020 8093</p>
+				<p><span class="footer-rt-hd">Email</span><br>raahmng@gmail.com</p>
+			</div>
+		</div>
+		<div class="footer-end">
+			<h2>Follow Us</h2>
+			<a href="https://web.facebook.com/RAAHM-NG-105535367552364/"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://twitter.com/RAAHM10"><i class="fab fa-twitter-square"></i></a>
+			<a href="https://instagram.com/raahm_ng?igshid=afw7lgazr4wl"><i class="fab fa-instagram-square"></i></a>
+			<a href="https://chat.whatsapp.com/DjuMoGWMp7q6YeUThFqfB0"><i class="fab fa-whatsapp-square"></i></a>
+			<a href="#"><i class="fab fa-youtube-square"></i></a><br><br>
+			<p>Copyright &copy 2020 RAAHM. All Right Reserved.<br>
+				Designed by <a href="https://wa.me/2348168901273" style="text-decoration: none; font-size: 16px; font-weight: bold;">AZ Web Solutions</a></p>
+		</div>
+	</div>
+
+<script src="js/raahm.js"></script>
+<script src="js/sponsor.js"></script>
+</body>
+</html>
