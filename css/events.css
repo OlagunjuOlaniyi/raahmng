@@ -1,0 +1,94 @@
+.events-b {
+	padding-bottom: 20px;
+}
+
+.events h1 {
+	font-size: 30px;
+}
+
+.events button {
+	padding: 7px 15px;
+	color: #ffffff;
+	font-size: 18px;
+	background-color: #009933;
+	border: none;
+	outline: none;
+	font-style: italic;
+	cursor: pointer;
+}
+
+.events button:hover {
+	background-color: rgba(0, 153, 51, 0.7);
+	transition: background-color 0.7s ease;
+}
+
+/*---======= Event Gallery Section ===-------*/
+.main {
+   	margin: auto;
+  	display: none;
+  	padding: 20px;
+}
+
+.main h2 {
+	color: #009933;
+}
+
+.gallery-ct {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	padding-top: 20px;
+}
+
+.column {
+   	width: 31%;
+   	display: none;
+  	margin: 7px;
+ }
+
+.content h4, .content p {
+  	background-color: white;
+  	padding: 10px;
+}
+
+.content img {
+	width: 100%;
+	transition: 0.6s;
+}
+
+.content img:hover {
+	transform: scale(1.5);
+}
+
+.show {
+  	display: block;
+}
+
+.btn {
+  	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: rgba(0, 153, 51, 0.2);
+	cursor: pointer;
+}
+
+.btn:hover {
+  	background-color: #009933;
+}
+
+.btn.active {
+  	background-color: #009933;
+  	color: white;
+}
+
+@media screen and (max-width: 770px) {
+	.column {
+   		width: 45%;
+	}
+
+	.btn {
+		padding: 8px 10px;
+		margin: 5px auto;
+	}
+}

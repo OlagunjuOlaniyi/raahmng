@@ -1,0 +1,89 @@
+.mission-ct {
+	display: flex;
+	justify-content: center;
+	padding: 10px 70px;
+}
+
+.mission-ct div {
+	margin: 20px 30px;
+	padding: 0 20px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 770px) {
+	.mission-ct {
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.mission-ct div {
+		margin: 10px;
+		padding: 0 10px;
+	}
+
+	.mission h1, .vision h1 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+	.mission-ct {
+		padding: 10px 20px;
+	}
+
+	.mission-ct div {
+		margin: 20px 20px;
+		padding: 0 10px;
+	}
+}
+/*---======== Meet the team ====-----*/
+.meet {
+	background-color: #ffffff;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.the-team {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.the-team div {
+	width: 30%;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.the-team img {
+	width: 75%;
+	border-radius: 50%;
+}
+
+.team-bt {
+	font-size: 18px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #ff8f00;
+	color: #000000;
+	cursor: pointer;
+	outline: none;
+}
+
+.team-bt:hover {
+	background-color: rgba(255, 143, 0, 0.7);
+	transition: background-color, color 0.7s ease;
+}
+
+@media screen and (max-width: 770px) {
+	.the-team div {
+		width: 50%;
+		font-size: 15px;
+	}
+
+	.team-bt {
+		font-size: 12px;
+		padding: 10px;
+	}
+}
